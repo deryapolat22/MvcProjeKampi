@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style>
+        .card {
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        }
+
+        .card-blue {
+            background-color: #e6f7ff;
+        }
+
+        .card-green {
+            background-color: #d7f7cd;
+        }
+
+        .card-yellow {
+            background-color: #fff3cd;
+        }
+
+        .card-purple {
+            background-color: #e3d7fc;
+        }
+
+        .card-pink {
+            background-color: #ffd6d6;
+        }
+    </style>
+</head>
+<body>
+    <div class="card card-blue">
+        <h2>Toplam Kategori Sayısı</h2>
+        <p>@ViewBag.GorevIlk</p>
+    </div>
+    <div class="card card-green">
+        <h2>Yazılım Kategorisi</h2>
+        <p>@ViewBag.GorevIkinci</p>
+    </div>
+    <div class="card card-yellow">
+        <h2>Adında 'A' Harfi Olan Yazar Sayısı</h2>
+        <p>@ViewBag.GorevUcüncü</p>
+    </div>
+    <div class="card card-purple">
+        <h2>En Fazla Başlığa Sahip Kategori</h2>
+        <p>@ViewBag.GorevDorduncu</p>
+    </div>
+    <div class="card card-pink">
+        <h2>True-False</h2>
+        <p>@ViewBag.GorevBesinci</p>
+    </div>
+</body>
+</html>
