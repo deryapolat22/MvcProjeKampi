@@ -70,6 +70,22 @@
     <Compile Include="Migrations\202405061347371_migfirst.Designer.cs">
       <DependentUpon>202405061347371_migfirst.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202405081046485_writeredit.cs" />
+    <Compile Include="Migrations\202405081046485_writeredit.Designer.cs">
+      <DependentUpon>202405081046485_writeredit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202405091138427_writerstatus.cs" />
+    <Compile Include="Migrations\202405091138427_writerstatus.designer.cs">
+      <DependentUpon>202405091138427_writerstatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202405091210282_contentstatus.cs" />
+    <Compile Include="Migrations\202405091210282_contentstatus.designer.cs">
+      <DependentUpon>202405091210282_contentstatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202405091212049_headingstatus.cs" />
+    <Compile Include="Migrations\202405091212049_headingstatus.designer.cs">
+      <DependentUpon>202405091212049_headingstatus.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -86,6 +102,18 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202405061347371_migfirst.resx">
       <DependentUpon>202405061347371_migfirst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202405081046485_writeredit.resx">
+      <DependentUpon>202405081046485_writeredit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202405091138427_writerstatus.resx">
+      <DependentUpon>202405091138427_writerstatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202405091210282_contentstatus.resx">
+      <DependentUpon>202405091210282_contentstatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202405091212049_headingstatus.resx">
+      <DependentUpon>202405091212049_headingstatus.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
