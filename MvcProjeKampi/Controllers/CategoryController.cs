@@ -16,6 +16,7 @@ namespace MvcProjeKampi.Controllers
     {
         CategoryManager cm = new CategoryManager(new EfCategoryDal());
         // GET: Category
+        [Authorize (Roles="A")]
         public ActionResult Index()
         {
             return View();
