@@ -16,6 +16,7 @@ namespace MvcProjeKampi.Controllers
         {
             return View();
         }
+        //TODO: controller seviyesinde yaptığın bu işlemi mimari seviyesine taşı!
         [HttpPost]
         public ActionResult Index(Admin admin)
         {
